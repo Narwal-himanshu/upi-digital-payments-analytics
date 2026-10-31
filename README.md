@@ -276,7 +276,7 @@ DSP_Project/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/upi-digital-payments-analytics.git
+git clone https://github.com/Narwal-himanshu/upi-digital-payments-analytics.git
 cd upi-digital-payments-analytics
 ```
 
@@ -360,7 +360,7 @@ The notebook expects `UPI_Digital_Payments_Dataset.xlsx` in the project root, an
 
 ## Author
 
-**Himanshu**
+**Himanshu** · [@Narwal-himanshu](https://github.com/Narwal-himanshu)
 
 Built as a Data Science Project to demonstrate the complete workflow from raw data to a polished, decision-ready dashboard.
 
