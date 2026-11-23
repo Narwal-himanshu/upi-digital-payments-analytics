@@ -318,6 +318,16 @@ jupyter lab UPI_DSP_Project_Part1.ipynb
 
 The notebook expects `UPI_Digital_Payments_Dataset.xlsx` in the project root, and writes cleaned files to `clean_data/`.
 
+### Deploy on Render
+
+The repository includes a Render Blueprint in `render.yaml`. To deploy:
+
+1. Push this repository to GitHub.
+2. In Render, choose **New +** → **Blueprint** and connect the repository.
+3. Keep the repository root as the Blueprint root directory, then apply the Blueprint.
+
+Render installs `requirements.txt` and starts Streamlit on the port Render provides. The cleaned CSVs in `clean_data/` must remain committed alongside `app.py`. On Render's free instance, the app may take a little while to load after being idle.
+
 ---
 
 ## Tech stack
